@@ -1,5 +1,13 @@
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width:30%;
+}
+
 .discount {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 100;
 }
