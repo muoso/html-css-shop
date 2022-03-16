@@ -1,6 +1,7 @@
+
 .image-row {
     width:fit-content;
-    margin: auto;
+    margin: 25px auto 25px auto;
 }
 .image-container {
     position: relative;
