@@ -1,4 +1,4 @@
-
+/* Making the box containing the rows of items match the size of the images*/
 .image-row {
     width:fit-content;
     margin: 25px auto 25px auto;
@@ -12,6 +12,7 @@
     margin:4px;
 }
 
+/* Code for the discount badges */
 .discount {
     position: absolute;
     top: 0;
@@ -27,13 +28,14 @@
     background-color: green;
 }
 
-
+/* Code for the red heart */
 #heart {
     position:absolute;
     display: none;
     color:red;
     right:50%;
     bottom:5%;
+    font-size:2em;
 }
 
 .image-container:hover #heart {
